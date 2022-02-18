@@ -103,3 +103,13 @@
   /*  XX-Large devices (larger desktops, 1400px and up) */
   @media (min-width: 1400px) {
   }
+  .bg-img{
+    background-image: linear-gradient(rgba(7, 7, 44, 0.1),rgba(0, 0, 0, 0.7)),url(./assets/images/beach.jpg);
+    background-size: cover;
+    background-attachment: fixed;
+    background-position: center;
+    width: 100%;
+    height: 50vh;
+    overflow: hidden;
+    z-index: -1;
+  }
