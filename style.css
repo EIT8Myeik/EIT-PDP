@@ -1,115 +1,119 @@
 * {
-    padding: 0;
-    margin: 0;
-    box-sizing: border-box;
-  }
-  .nav-item .nav-link {
-    font-size: 1.1rem;
-    padding: 1.1rem !important;
-  }
-  
-  #home {
-    background-image: url("../asset/image/home.bg.jpg");
-    background-size: cover;
-    position: relative;
-    z-index: 10;
-  }
-  
-  .layer {
-    width: 100%;
-    height: 100%;
-    position: absolute;
-    background-color: rgba(2, 2, 2, 0.3);
-    z-index: -1;
-  }
-  
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+.nav-item .nav-link {
+  font-size: 1.1rem;
+  padding: 1.1rem !important;
+}
 
-  .goal,.internship,.objectives{
-      background-color: #f7f7f7;
-      border-radius: .5rem;
-      transition:all ease-in-out .5s ;
+#home {
+  background-image: url("../asset/image/home.bg.jpg");
+  background-size: cover;
+  position: relative;
+  z-index: 10;
+}
 
-  }
-  .goal:hover,.internship:hover,.objectives:hover{
-    transform: translateY(-10px);
-    cursor: pointer;
-    box-shadow: 5px 3px 3px #b4b0b054;
-  }
+.layer {
+  width: 100%;
+  height: 100%;
+  position: absolute;
+  background-color: rgba(2, 2, 2, 0.3);
+  z-index: -1;
+}
 
-  ul {
-    list-style: none;
-  }
+.goal,
+.internship,
+.objectives {
+  background-color: #f7f7f7;
+  border-radius: 0.5rem;
+  transition: all ease-in-out 0.5s;
+}
+.goal:hover,
+.internship:hover,
+.objectives:hover {
+  transform: translateY(-10px);
+  cursor: pointer;
+  box-shadow: 5px 3px 3px #b4b0b054;
+}
 
-  .icon{
-    color: #ffc107;
-    font-size: 1.5rem;
-  }
+ul {
+  list-style: none;
+}
 
+.icon {
+  color: #ffc107;
+  font-size: 1.5rem;
+}
+.swiper {
+  height: 7rem;
+  width: 100%;
+}
 
-  
-  /* Small devices (landscape phones, 576px and up) */
-  @media (min-width: 576px) {
-    .goal{
-        padding-bottom: 2rem !important;
-  
-    } 
+.swiper-pagination .swiper-pagination-bullet-active {
+  background-color: #ffc107;
+}
+
+/* Small devices (landscape phones, 576px and up) */
+@media (min-width: 576px) {
+  .goal {
+    padding-bottom: 2rem !important;
   }
-  
-  /*  Medium devices (tablets, 768px and up) */
-  @media (min-width: 768px) {
-    .goal{
-        padding-bottom: 26.7rem !important;
-    
-    }
-    .internship{
-        padding-bottom: 4rem !important;
-    }
+}
+
+/*  Medium devices (tablets, 768px and up) */
+@media (min-width: 768px) {
+  .goal {
+    padding-bottom: 26.7rem !important;
   }
-  
-  /*  Large devices (desktops, 992px and up) */
-  @media (min-width: 992px) {
-    .content {
-      width: 50%;
-    }
-    .goal{
-        padding-bottom: 19.25rem !important;
-  
-    }
-    .internship{
-        padding-bottom: 2.5rem !important;
-    }
-  
+  .internship {
+    padding-bottom: 4rem !important;
   }
-  
-  /* X-Large devices (large desktops, 1200px and up) */
-  @media (min-width: 1200px) {
-    .goal{
-        padding-bottom: 14.5rem !important;
-  
-    }
-    .internship{
-        padding-bottom: 2.5rem !important;
-    }
+}
+
+/*  Large devices (desktops, 992px and up) */
+@media (min-width: 992px) {
+  .content {
+    width: 50%;
   }
-  
-  /*  XX-Large devices (larger desktops, 1400px and up) */
-  @media (min-width: 1400px) {
+  .goal {
+    padding-bottom: 19.25rem !important;
   }
-  
-  /* X-Large devices (large desktops, 1200px and up) */
-  @media (min-width: 1200px) {
+  .internship {
+    padding-bottom: 2.5rem !important;
   }
-  
-  /*  XX-Large devices (larger desktops, 1400px and up) */
-  @media (min-width: 1400px) {
+}
+
+/* X-Large devices (large desktops, 1200px and up) */
+@media (min-width: 1200px) {
+  .goal {
+    padding-bottom: 14.5rem !important;
   }
-  .bg-img{
-    background-image: linear-gradient(rgba(7, 7, 44, 0.1),rgba(0, 0, 0, 0.7)),url(./assets/images/beach.jpg);
-    background-size: cover;
-    background-attachment: fixed;
-    background-position: center;
-    width: 100%;
-    height: 50vh;
-    overflow: hidden;
-    z-index: -1;
+  .internship {
+    padding-bottom: 2.5rem !important;
   }
+}
+
+/*  XX-Large devices (larger desktops, 1400px and up) */
+@media (min-width: 1400px) {
+}
+
+/* X-Large devices (large desktops, 1200px and up) */
+@media (min-width: 1200px) {
+}
+
+/*  XX-Large devices (larger desktops, 1400px and up) */
+@media (min-width: 1400px) {
+}
+.bg-img {
+  background-image: linear-gradient(rgba(7, 7, 44, 0.1), rgba(0, 0, 0, 0.7)),
+    url(./assets/images/beach.jpg);
+  background-size: cover;
+  background-attachment: fixed;
+  background-position: center;
+  width: 100%;
+  height: 50vh;
+  overflow: hidden;
+  z-index: -1;
+}
