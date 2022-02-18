@@ -51,6 +51,13 @@ ul {
   width: 100%;
 }
 
+.swiper-slide img {
+  opacity: 0.5;
+}
+
+.swiper-slide img:hover {
+  opacity: 1;
+}
 .swiper-pagination .swiper-pagination-bullet-active {
   background-color: #ffc107;
 }
