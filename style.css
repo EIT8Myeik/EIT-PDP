@@ -52,7 +52,12 @@ ul {
 }
 
 .swiper-slide img {
+  width: 80%;
   opacity: 0.5;
+}
+.img-fluid{
+  width: 100%;
+  height: auto;
 }
 
 .swiper-slide img:hover {
