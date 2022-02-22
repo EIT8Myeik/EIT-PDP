@@ -9,7 +9,7 @@
 }
 
 #home {
-  background-image: url("../asset/image/home.bg.jpg");
+  background-image: url('../asset/image/home.bg.jpg');
   background-size: cover;
   position: relative;
   z-index: 10;
@@ -71,6 +71,9 @@ ul {
   height: 12px;
   opacity: 1;
   background-color: #ddd;
+}
+.list {
+  list-style-type: disc;
 }
 
 .bg-img {
