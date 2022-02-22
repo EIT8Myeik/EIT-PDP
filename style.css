@@ -86,8 +86,8 @@ ul {
 }
 
 .question-div {
-  background-image: linear-gradient(rgba(7, 7, 44, 0.096), rgba(0, 0, 0, 0)),
-    url(https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcT5cGW7YRVCK_-j4-8Pr3KcIFsclfedLf27Og&usqp=CAU);
+  background-image: linear-gradient(rgba(7, 7, 44, 0), rgba(0, 0, 0, 0)),
+    url(https://images.unsplash.com/photo-1444464666168-49d633b86797?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxzZWFyY2h8MjB8fG5hdHVyZXxlbnwwfHwwfHw%3D&auto=format&fit=crop&w=600&q=60);
   background-size: cover;
   background-attachment: fixed;
   background-position: center;
@@ -97,9 +97,6 @@ ul {
   z-index: -1;
 }
 
-.question-div > div {
-  padding-top: 88px;
-}
 .question {
   color: white;
 }
@@ -120,7 +117,7 @@ ul {
   transition: 0.5s;
 }
 
-.bi {
+.contact_icon {
   font-size: 20px;
   background: #ffc451;
   width: 45px;
