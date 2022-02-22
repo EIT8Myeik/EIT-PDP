@@ -9,7 +9,7 @@
 }
 
 #home {
-  background-image: url("../asset/image/home.bg.jpg");
+  background-image: url('../asset/image/home.bg.jpg');
   background-size: cover;
   position: relative;
   z-index: 10;
@@ -60,6 +60,9 @@ ul {
 }
 .swiper-pagination .swiper-pagination-bullet-active {
   background-color: #ffc107;
+}
+.list {
+  list-style-type: disc;
 }
 
 /* Small devices (landscape phones, 576px and up) */
