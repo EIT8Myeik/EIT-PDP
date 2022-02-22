@@ -138,6 +138,25 @@ ul {
   text-decoration-line: underline;
   text-decoration-color: #8cb3f8;
 }
+
+.footer {
+  background: #151515;
+}
+
+.social-links a {
+  font-size: 18px;
+  display: inline-block;
+  background: #292929;
+  color: #fff;
+  padding: 2px 0 2px 0;
+  margin-right: 0.2rem;
+  border-radius: 0.2rem;
+  text-align: center;
+  width: 36px;
+  height: 36px;
+}
+
+
 /* Small devices (landscape phones, 576px and up) */
 @media (min-width: 576px) {
   .goal {
