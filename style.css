@@ -163,16 +163,12 @@ ul {
   .goal {
     padding-bottom: 2rem !important;
   }
+  
 }
 
 /*  Medium devices (tablets, 768px and up) */
 @media (min-width: 768px) {
-  .goal {
-    padding-bottom: 26.7rem !important;
-  }
-  .internship {
-    padding-bottom: 4rem !important;
-  }
+ 
 }
 
 /*  Large devices (desktops, 992px and up) */
@@ -186,6 +182,7 @@ ul {
   .internship {
     padding-bottom: 2.5rem !important;
   }
+  
 }
 
 /* X-Large devices (large desktops, 1200px and up) */
@@ -202,13 +199,7 @@ ul {
 @media (min-width: 1400px) {
 }
 
-/* X-Large devices (large desktops, 1200px and up) */
-@media (min-width: 1200px) {
-}
 
-/*  XX-Large devices (larger desktops, 1400px and up) */
-@media (min-width: 1400px) {
-}
 .bg-img {
   background-image: linear-gradient(rgba(7, 7, 44, 0.1), rgba(0, 0, 0, 0.7)),
     url(./assets/images/beach.jpg);
