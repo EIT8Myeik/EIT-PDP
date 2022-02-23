@@ -111,7 +111,7 @@ ul {
   background: none;
   border: 1px solid white;
   color: white;
-  font-family: "Raleway", sans-serif;
+  font-family: 'Raleway', sans-serif;
   font-weight: 600;
   font-size: 16px;
   padding: 7px 40px;
@@ -155,7 +155,6 @@ ul {
   width: 36px;
   height: 36px;
 }
-
 
 /* Small devices (landscape phones, 576px and up) */
 @media (min-width: 576px) {
@@ -219,18 +218,18 @@ ul {
   overflow: hidden;
   z-index: -1;
 }
-.stakeholderBg{
+.stakeholderBg {
   background-image: linear-gradient(rgba(5, 5, 5, 0.5), rgba(0, 0, 0, 0.5)),
-  url(./assets/images/Ocean.jpg);
-background-size: cover;
-background-attachment: fixed;
-background-position: bottom;
-width: 100%;
-height: 100%;
-overflow: hidden;
-z-index: -1;
+    url(./assets/images/Ocean.jpg);
+  background-size: cover;
+  background-attachment: fixed;
+  background-position: bottom;
+  width: 100%;
+  height: 100%;
+  overflow: hidden;
+  z-index: -1;
 }
-.contactbtn{
+.contactbtn {
   width: 150px;
   border: solid 2px #fff;
   border-radius: 5px;
@@ -239,7 +238,7 @@ z-index: -1;
   -ms-border-radius: 5px;
   -o-border-radius: 5px;
 }
-.stakeholderBg .contactbtn:hover{
+.stakeholderBg .contactbtn:hover {
   background-color: #ffc107 !important;
   color: #222 !important;
   border: none !important;
